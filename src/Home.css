@@ -19,7 +19,7 @@
 }
 .home_section_one_hero {
     position: absolute;
-    top: 45vh;
+    top: 35vh;
     left: 15%;
     width: 35%;
     color: white;
@@ -302,10 +302,10 @@
         color: white;
     }
     .home_section_one_hero > h1{
-        font-weight: 600;
-        font-size: 60px;
+        font-weight: 500;
+        font-size: 50px;
         margin-bottom: 20px;
-            font-family: 'Cormorant Garamond', serif;
+        font-family: 'Cormorant Garamond', serif;
 
     }
     .home_section_one_hero > p{

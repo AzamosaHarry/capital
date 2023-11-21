@@ -25,8 +25,8 @@ function Home () {
                     <div className='home_section_one_div2'>
                     </div>
                     <div className='home_section_one_hero'>
-                            <h1>Capital X ventures</h1>
-                            <p>we take pride in our core competencies and unique selling proposition that set us apart. We are commited to guiding businesses through the intricacies of debt management, our core mission is to facilitate sustainable financial growth for our clients.</p>
+                            <h1>Your Journey to a Debt-Free Tomorrow Begins Here.</h1>
+                            <p>Welcome to Capital X Ventures, Your Trusted Partner in Corporate Debt Advisory and Management. We Understand Your Challenges, Navigate Your Options, and Chart a Path to Financial Resilience. Take Control of Your Finances with Expert Guidance. Discover Peace of Mind. Explore our Solutions Today.</p>
                             <div className='home_section_one_hero_div'  onClick={() => {navigate('/capital/about')}}>
                                 <h3>Learn more</h3>
                                 <FaLongArrowAltRight className='home_link_arrow'/>

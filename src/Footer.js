@@ -50,8 +50,8 @@ function Footer () {
             <section className='footer_section_three'>
                 <hr />
                 <div>
-                    <h3>Capital X ventures - redefining the frontiers</h3>
-                    <p>&copy; 2018 - 2023 Capital X venture</p>
+                    <h3>Capital X Ventures - redefining the frontiers</h3>
+                    <p>&copy; 2018 - 2023 Capital X Ventures</p>
                 </div>
             </section>
         </div>
