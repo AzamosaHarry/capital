@@ -221,8 +221,8 @@
 }
 .home_section_three_div2_part2 > div > h3{
     font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 13px;
+    line-height: 20px;
 }
 .section_three_image {
     width: 100%;
@@ -401,6 +401,11 @@
         width: 100%;
         overflow: hidden;
         margin-bottom: 20px;
+    }
+    .home_section_three_div2_part1 >h3 {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
     }
     .home_section_three_div1 > div > div{
         background: #f0f0f0;
