@@ -4,7 +4,7 @@
 }
 .home_section_one {
     height: 92vh;
-    background: linear-gradient(to right,  #051c2c, #051c2c, #051c2c, #2251ff);
+    background: url(/src/bg.jpg);
     background-size: cover;
     display: flex;
 }
@@ -192,6 +192,7 @@
 .home_section_three_div1 > div > div > p{
     font-weight: 500;
     font-size: 13px;
+    line-height: 25px;
 }
 .home_section_three_div2 {
     display: flex;
@@ -199,20 +200,29 @@
 }
 .home_section_three_div2_part1 {
     width: 50%;
-    background: url(/src/two.jpg);
+    background: url(/src/thirteen.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
     padding: 5%;
-    color: white;
+    color: #051c2c;
+}
+.home_section_three_div2_part1 >h3 {
+    width: 70%;
 }
 .home_section_three_div2_part2 {
     width: 50%;
 }
 .home_section_three_div2_part2 > div{
-    background: black;
+    background: #2251ff;
     color: white;
     padding: 5% 10%;
+}
+.home_section_three_div2_part2 > div > h3{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
 }
 .section_three_image {
     width: 100%;
@@ -229,10 +239,8 @@
     color: white;
 }
 .section_four_image {
-    height: 200px;
-    width: 45%;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    height: 100%;
+    width: 100%;
 }
 .home_section_four_div1 {
     width: 50%;
@@ -310,6 +318,7 @@
      }
      .home_section_two_one {
         flex-direction: column;
+        margin: 20px 0;
     }
     .section_two_image {
         margin: 0 2.5%;
@@ -321,7 +330,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-left: 5%;
+        padding: 5%;
     }
     .home_section_two_intermediary > h1{
         font-weight: 500;
@@ -329,7 +338,7 @@
     }
     .home_section_two_intermediary > p{
         font-size: 15px;
-        width: 80%;
+        width: 100%;
         text-align: start;
     }
     .home_section_two_two {
@@ -423,10 +432,11 @@
         margin-top: 20px;
     }
     .home_section_four_div1 > h1{
+        width: 100%;
         font-size: 40px;
         font-weight: 600;
         margin-bottom: 20px;
-            font-family: 'Cormorant Garamond', serif;
+        font-family: 'Cormorant Garamond', serif;
 
     }
     .home_section_four_div1 > p{
@@ -443,10 +453,8 @@
         margin: 20px 0;
     }
     .section_four_image {
-        height: 200px;
-        width: 48%;
-        margin-left: 5px;
-        margin-bottom: 5px;
+        height: 100%;
+        width: 100%;
     }
     .home_section_five {
         padding: 3% 0;

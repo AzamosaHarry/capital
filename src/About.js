@@ -3,9 +3,14 @@ import bgvid2 from './bgvid2.mp4'
 import Footer from './Footer'
 import Header from './Header'
 import { FaLongArrowAltRight } from 'react-icons/fa'
-import image1 from './one.jpg'
+import image6 from './six.jpg'
 import image2 from './two.jpg'
-import image3 from './three.jpg'
+import image5 from './five.jpg'
+import image15 from './fifteen.png'
+import image16 from './sixteen.png'
+import image17 from './seventeen.png'
+import image18 from './eighteen.png'
+
 
 function About() {
     return(
@@ -22,74 +27,74 @@ function About() {
                     </div>
                     <section className='about_section_two'>
                     <div className='about_section_two_div1'>
-                        <p>Sint eiusmod ex magna qui ipsum cupidatat velit aute labore. Consequat eu non aliquip cillum aliquip et velit et magna. Dolor consequat occaecat irure velit est incididunt amet pariatur nostrud cupidatat amet. Ipsum nisi veniam dolor id. </p>
-                        <p>Dolor eu duis officia aute cupidatat et reprehenderit reprehenderit et fugiat consectetur ipsum excepteur. Nostrud incididunt aute et veniam enim reprehenderit enim. Elit enim et do in laboris ea culpa voluptate occaecat in.</p>
+                        <p>Our clients are always pushing forward, testing and challenging, striving for the change that changes everything. </p>
+                        <p>We partner with bold leaders every step of the way. Pinpoiting the strategy that will reshape tomorrow. Harnessing innovation to reach net zero. Transforming through technology. Developing skills and capabilities across thier organization.</p>
                        
                     </div>
                     <div className='about_section_two_div2'>
-                        <p> Proident id culpa dolore veniam adipisicing ipsum. Labore cillum anim et non sit quis labore et. Lorem velit minim exercitation laboris laboris velit excepteur aliquip. Reprehenderit dolor ut cupidatat sit qui.</p>
+                        <p> Together we're accelerating toward a more sustainable, inclusive, and growing future for all.</p>
                     </div>
                 </section>
                 <section>
                     <div className='home_section_two_intermediary'>
-                        <h1>Discover Capial X</h1>
-                        <p>Elit ut quis proident velit labore do id consectetur. Pariatur non cillum officia magna. In veniam enim reprehenderit enim. Elit ut quis proident velit labore do id consectetur. Pariatur non cillum officia magna. In veniam enim reprehenderit enim.</p>
+                        <h1>Commited to sustainable goals</h1>
+                        <p>We are dedicated to managing our firm and working with our clients in ways that benefit individuals, communities, and the environments they live in.</p>
                     </div>
                     <div className='home_section_two_one'>
-                        <img src={image1} className='section_two_image' />
+                        <img src={image5} className='section_two_image' />
                         <div className='home_section_one_div'>
-                            <h1>How we work?</h1>
-                            <p>Exercitation anim id occaecat veniam aute veniam laborum cillum cupidatat tempor occaecat excepteur aliquip fugiat. Eu mollit esse eu minim elit commodo aliqua cupidatat. Laboris nulla qui mollit qui culpa deserunt adipisicing sint quis ad id quis aliqua.</p>
+                            <h1>Who we are?</h1>
+                            <p>Our firm is designed to operate as one—a single global partnership united by a strong set of values. We are equally committed to both sides of our mission: attracting and developing a talented and diverse group of colleagues and helping our clients create meaningful and lasting change.</p>
                         </div>
                     </div>
                     <div className='home_section_two_two'>
-                        <img src={image2} className='section_two_image' />
+                        <img src={image6} className='section_two_image' />
                         <div className='home_section_two_div'>
-                            <h1>Who we are?</h1>
-                            <p>Nostrud dolor anim fugiat mollit. Mollit ad duis sit cillum esse enim aute proident qui irure proident deserunt. Cupidatat dolore pariatur commodo exercitation. Deserunt sunt sint Lorem fugiat minim consectetur magna qui Lorem tempor veniam deserunt laboris. Et excepteur ut quis minim est esse eiusmod cillum quis.</p>
+                            <h1>How we work?</h1>
+                            <p>From the C-suite to the front line, we partner with clients to help them innovate more sustainably, achieve lasting gains in performance, and build workforces that will thrive for this generation and the next.</p>
                         </div>
                     </div>
                 </section>
                 <section className='about_section_three'  id='with-hash-sustain'>
                     <h1>Partnership and Collaboration</h1>
-                    <h3>Magna ut commodo duis nulla dolor. Consectetur minim aliquip aliqua do. Esse laboris cupidatat et cillum cillum consectetur eiusmod nisi labore laborum consectetur tempor.</h3>
+                    <h3>At Capital X, we believe in the power of collaboration and partnerships. We welcome opportunities to work with like-minded organizations and firms who share our vision.</h3>
                 </section>
                 <section className='about_section_four'>
                     <h3>Our mission and vision</h3>
-                    <h1>Minim reprehenderit consequat</h1>
+                    <h1>Our commitment to these principles drives everything we do at Capital X Ventures.</h1>
                     <div>
                         <div className='about_vision'>
                             <h3>Vision</h3>
-                            <p>Adipisicing commodo ex officia dolore nostrud officia occaecat ea nisi nulla aliquip. Deserunt dolor cillum ullamco culpa. Consectetur in do commodo non cupidatat voluptate pariatur enim proident non eu in id. Anim qui culpa cupidatat nulla dolor elit labore tempor aute consectetur.</p>
+                            <p>At Capital X Ventures, we are driven by a clear and ambitious vision: "To be the Leading Debt Management Partner for Nigerian Corperations". this vision is a testament to our unwavering commitment to becoming the foremost debt management partner for businesses in Nigeria. We aspire to set industry standards and play a piivotal role in facilitating financial growth and prosperity for our clients.</p>
                         </div>
                         <div className='about_mission'>
                             <h3>Mission</h3>
-                            <p>Adipisicing commodo ex officia dolore nostrud officia occaecat ea nisi nulla aliquip. Deserunt dolor cillum ullamco culpa. Consectetur in do commodo non cupidatat voluptate pariatur enim proident non eu in id. Anim qui culpa cupidatat nulla dolor elit labore tempor aute consectetur.</p>
+                            <p>Empowering our partners and businesses burdened by debt to regain financial control by providing personalized solutions, comprehensive education, and unwavering support, paving the path towards financial freedom and a brighter future.</p>
                         </div>
                     </div>
                 </section>
                 <section className='about_section_five'>
-                    <h1>Enim voluptate dolore minim</h1>
+                    <h1>Unique selling point</h1>
                     <div>
                         <div>
-                            <img src={image2} className='about_section_five_image' />
-                            <h1>Consequat laboris velit.</h1>
-                            <p>Aute ad qui labore sint in est enim ad ullamco fugiat tempor ad culpa commodo. Culpa aliqua dolor sunt pariatur et ipsum velit in aute.</p>
+                            <img src={image17} className='about_section_five_image' />
+                            <h1>Personalized Approach</h1>
+                            <p> What truly sets Capital X Ventures apart is our personal touch. We treat each client with the attention and care they deserve. Our clients are not just numbers; they are partners, amd we build relaltionships based on trust and a genuine desire to see them succeed</p>
                         </div>
                         <div>
-                            <img src={image2} className='about_section_five_image' />
-                            <h1>Consequat laboris velit.</h1>
-                            <p>Aute ad qui labore sint in est enim ad ullamco fugiat tempor ad culpa commodo. Culpa aliqua dolor sunt pariatur et ipsum velit in aute.</p>
+                            <img src={image15} className='about_section_five_image' />
+                            <h1>Industry expertise</h1>
+                            <p>With our extensive experience in the Nigerian financial sector, we are uniquely positioned to navigate the intricacies of the local market. Our in-depth industry knowledge allows us to offer insights and strategies that are finely tuned to the specific challenges and opportunities around Nigeria.</p>
                         </div>
                         <div>
-                            <img src={image2} className='about_section_five_image' />
-                            <h1>Consequat laboris velit.</h1>
-                            <p>Aute ad qui labore sint in est enim ad ullamco fugiat tempor ad culpa commodo. Culpa aliqua dolor sunt pariatur et ipsum velit in aute.</p>
+                            <img src={image16} className='about_section_five_image' />
+                            <h1>Local and Global Reach</h1>
+                            <p>Capital X Ventures operates both locally in Nigeria and on a global scale. This dual presence allows us to serve clients wherever they conduct business. We can provide local insights and solutions while also leveraging a global perspective to ensure the best outcomes of our clients</p>
                         </div>
                         <div>
-                            <img src={image2} className='about_section_five_image' />
-                            <h1>Consequat laboris velit.</h1>
-                            <p>Aute ad qui labore sint in est enim ad ullamco fugiat tempor ad culpa commodo. Culpa aliqua dolor sunt pariatur et ipsum velit in aute.</p>
+                            <img src={image18} className='about_section_five_image' />
+                            <h1>Tailored Solutions</h1>
+                            <p>Our approach is centered on crafting personalized financial strategies that align with each client's unique objectives, risk tolerance, and financial situation. Our commitment to tailored solutions ensures that our clients receive the best possible financial support and guidance</p>
                         </div>
                     </div>
                 </section>

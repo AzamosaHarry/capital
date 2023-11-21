@@ -1,6 +1,11 @@
 .header_logo {
     height: 30px;
 }
+.header_logo2 {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .header {
     height: 8vh;
     background: transparent;
@@ -17,7 +22,7 @@
 }
 .header.transparent {
     min-height: 8vh;
-    background: linear-gradient(to bottom, white, white,white,white,white);
+    background: #051c2c;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -33,7 +38,7 @@
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    color: #000;
+    color: white;
     font-size: 13px;
     font-weight: 500;
 }
@@ -42,11 +47,11 @@
     font-size: 14px;
     cursor: pointer;
     text-decoration: none;
-    color: black;
-    font-weight: 600;
+    color: white;
+    font-weight: 500;
 }
 .header_nav_list:hover{
-    color: burlywood;
+    color: blue;
 }
 .dropdown {
     display: flex;
@@ -71,7 +76,7 @@
 .home_sidebar{
     position: absolute;
     z-index: 100;
-    background-color: black;
+    background-color: #051c2c;
     color: white;
     top: 0;
     left: -100%;
@@ -79,12 +84,13 @@
     margin: 0;
     min-height: 100vh;
     transition: all 0.75s linear;
+    padding-left: 20px;
     
 }
 .home_sidebar_true{
     position: absolute;
     z-index: 100;
-    background-color: black;
+    background-color: #051c2c;
     color: white;
     top: 0;
     left: 0;
@@ -92,12 +98,13 @@
     margin: 0;
     min-height: 100vh;
     transition: all 0.75s linear;
+    padding-left: 20px;
     
 }
 .home_sidebar_close {
     font-size: 30px;
     color: white;
-    margin: 2.5%;
+    margin: 5%;
     margin-left: auto;
 }
 .home_sidebar_navbar{
@@ -120,12 +127,10 @@
 }
 .evajay_header {
     object-fit: contain;
-    color: black;
     font-size: 40px;
 }
 .evajay_header2{
     object-fit: contain;
-    color: black;
     font-size: 40px;
 }
 
@@ -204,7 +209,7 @@
     }
     .home_menu {
         display: block;
-        color: black;
+        color: white;
     }
     .evajay_header {
         margin: 10px;
@@ -213,6 +218,6 @@
     .evajay_header2{
         color: white;
         font-size: 35px;
-        margin: 10px;
+        margin: 50px;
     }
 }

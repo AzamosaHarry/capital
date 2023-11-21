@@ -16,13 +16,13 @@ function Header () {
 
     return (
         <div className='header transparent'>      
-        <Link to='/capital'><img src={logoblack} className='header_logo'/></Link>
+        <Link to='/capital'><img src={logowhite} className='header_logo'/></Link>
         <ul className='header_nav'>
           <li>
             <Link to='/capital/about' className='header_nav_list'>About us</Link>
           </li>
           <li className='dropdown' onClick={() => {setDropdown(!dropdown)}}>    
-              <Link to='/capital/about' className='header_nav_list'>career</Link>
+              <Link to='/capital/career' className='header_nav_list'>Career</Link>
           </li>
           <li><NavHashLink
               to="/capital/#with-hash-contact"
@@ -33,7 +33,7 @@ function Header () {
         <FiMenu className='home_menu' onClick={() => {setMenu(true)}}/>
         <div className={menu? 'home_sidebar_true' : 'home_sidebar'}>
             <div style={{display: 'flex', alignItems: 'center'}}>
-            <Link to='/capital'><img src={logowhite} className='header_logo'/></Link>
+            <Link to='/capital'><img src={logowhite} className='header_logo2'/></Link>
               <AiOutlineClose className='home_sidebar_close' onClick={() => {setMenu(false)}}/>
             </div>
             <ul className='home_sidebar_navbar'>
@@ -42,7 +42,7 @@ function Header () {
                 className='home_sidebar_link'
                 >About us</Link></li>
                 <li><Link
-                to='/capital/about'
+                to='/capital/career'
                 className='home_sidebar_link'
                 >Career</Link></li>
               <li><NavHashLink

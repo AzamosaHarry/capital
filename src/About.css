@@ -35,7 +35,7 @@
     width: 50%;
 }
 .about_section_two_div1 > p{
-    line-height: 35px;
+    line-height: 30px;
 }
 .about_section_two_div2{
     width: 40%;
@@ -83,14 +83,17 @@
 .about_section_four > h3{
     font-weight: 400;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 .about_section_four > h1{
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 3px;
-    font-weight: 700;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 17px;
     color: black;
     margin: 0;
+    width: 30%;
+    text-align: center;
 }
 
 .about_section_four > div{
@@ -135,6 +138,8 @@
     font-weight: 500;
     font-size: 25px;
     margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 20px;
 }
 .about_section_five > div{
     display: flex;
@@ -144,6 +149,7 @@
 .about_section_five > div > div{
     width: 22%;
     margin: 0 20px;
+    min-height: 600px;
 }
 .about_section_five > div > div> h1{
     font-weight: 500;
@@ -156,6 +162,7 @@
     font-size: 15px;
 }
 .about_section_five_image {
+    height: 200px;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -225,9 +232,10 @@
     }
     .about_section_two_div1 > p{
         line-height: 35px;
-        text-align: justify;
+        text-align: start;
     }
     .about_section_two_div2{
+        margin: 30px 0;
         width: 100%;
     }
     .about_section_four > div{
@@ -288,6 +296,8 @@
         font-size: 20px;
         color: black;
         margin: 10px 0;
+        width: 100%;
+        text-align: start;
     }
     
     .about_section_four > div{
@@ -308,9 +318,8 @@
     }
     .about_section_five > h1{
         font-weight: 500;
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 20px;
-        font-family: 'Cormorant Garamond', serif;
     }
     .about_section_five > div{
         display: flex;
@@ -321,6 +330,7 @@
     .about_section_five > div > div{
         width: 100%;
         margin: 30px 10px;
+        min-height: auto;
     }
     .about_section_five > div > div> h1{
         font-weight: 500;
