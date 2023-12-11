@@ -41,10 +41,6 @@ function Footer () {
                         <h1>Lagos</h1>
                         <p>B15 James Pinnock's place, Pinnock Beach Estate, Lekki, Lagos, Nigeria</p>
                     </div>
-                    <div>
-                        <h1>Abuja</h1>
-                        <p>5 Abdullahi Bokani street, kubwa, Abuja, FCT Nigeria</p>
-                    </div>
                 </div>
             </section>
             <section className='footer_section_three'>
